@@ -1,0 +1,28 @@
+PODS:
+  - edgar_planner_calendar_flutter (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - edgar_planner_calendar_flutter (from `../edgar_planner_calendar_flutter/.ios/Flutter`)
+  - Flutter (from `../edgar_planner_calendar_flutter/.ios/Flutter/engine`)
+  - FlutterPluginRegistrant (from `../edgar_planner_calendar_flutter/.ios/Flutter/FlutterPluginRegistrant`)
+
+EXTERNAL SOURCES:
+  edgar_planner_calendar_flutter:
+    :path: "../edgar_planner_calendar_flutter/.ios/Flutter"
+  Flutter:
+    :path: "../edgar_planner_calendar_flutter/.ios/Flutter/engine"
+  FlutterPluginRegistrant:
+    :path: "../edgar_planner_calendar_flutter/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  edgar_planner_calendar_flutter: d8e2fd572b1d16a1087fd4362771d3a514603cfd
+  Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
+  FlutterPluginRegistrant: d3a0fbc12bc47787a12fcc919193f3959aa7d5ad
+
+PODFILE CHECKSUM: da338e7ef4957c386d62ce116d43691db0cd1e02
+
+COCOAPODS: 1.11.3
