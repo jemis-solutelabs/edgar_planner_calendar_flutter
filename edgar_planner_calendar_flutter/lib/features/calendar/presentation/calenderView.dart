@@ -14,8 +14,6 @@ class MyCalender extends StatefulWidget {
 
 class _MyCalenderState extends State<MyCalender> {
   @override
-  Widget build(BuildContext context) {
-    return const SlCalender(
-        child: SizedBox(height: 450, width: 450, child: const SlMothView()));
-  }
+  Widget build(BuildContext context) => const SlCalender(
+        child: SizedBox(height: 450, width: 450, child: SlMothView()));
 }

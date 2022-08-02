@@ -6,11 +6,20 @@ pluginManagement {
     }
 }
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
     repositories {
         google()
         mavenCentral()
+
     }
 }
 rootProject.name = "demo_android"
 include ':app'
+
+// Include the host app project. // assumed existing content
+setBinding(new Binding([gradle: this]))                                // new
+evaluate(new File(                                                     // new
+        settingsDir.parentFile,                                              // new
+        'edgar_planner_calendar_flutter/.android/include_flutter.groovy'                         // new
+))                                                                     // new
+

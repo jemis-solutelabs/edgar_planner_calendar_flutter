@@ -34,11 +34,8 @@ class FirstFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.buttonFirst.setOnClickListener {
-            FlutterActivity
-                .withNewEngine()
-                .initialRoute("/my_route")
-                .build(this)
 //            findNavController().navigate(R.id.action_FirstFragment_to_SecondFragment)
+            FlutterActivity.createDefaultIntent(this)
         }
     }
 
